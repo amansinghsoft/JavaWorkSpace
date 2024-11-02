@@ -1,0 +1,35 @@
+package com.first.project;
+
+interface Computer{
+	void code();
+}
+
+ class Desktop implements Computer{
+	public void code(){
+		System.out.println("I am in Desktop.");
+	}
+}
+ 
+ class Laptop1 implements Computer{
+	 public void code() {
+		 System.out.println("I am in Laptop.");
+	 }
+ }
+ 
+ class Display{
+	 public void show(Computer comp) {
+		 comp.code();
+	 }
+ }
+
+public class Interface02 {
+
+	public static void main(String[] args) {
+		Computer obj1 = new Desktop();
+		Computer obj2 = new Laptop1();
+		
+		obj1.code();
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.first.project;
+
+public class Exception01 {
+
+	public static void main(String[] args) {
+		int i = 0;
+		int j =0;
+		
+		try {
+			j = 18/i;
+		}catch(Exception e){
+			System.out.println("Exception  " + e);  // e shows the exception that occur.
+		}
+		System.out.println(j);
+		System.out.println("Hiii");
+	}
+
+}

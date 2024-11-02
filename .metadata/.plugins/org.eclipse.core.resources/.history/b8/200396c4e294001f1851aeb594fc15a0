@@ -1,0 +1,27 @@
+package com.first.project;
+
+interface Demo{
+	void show();  // Methods are Abstract and public
+	void display();
+	
+}
+
+class Interfaces implements Demo{
+	public void show() {
+		System.out.println("I am Aman.");
+	}
+	
+	public void display() {
+		System.out.println("I am in display.");
+	}
+}
+public class Interface01 {
+
+	public static void main(String[] args) {
+		
+			A obj = (A) new Interfaces();  //Cast of A
+			obj.display();
+			obj.show();
+	}
+
+}

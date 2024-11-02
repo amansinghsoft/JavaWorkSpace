@@ -1,0 +1,18 @@
+package com.first.project;
+
+enum Status{
+	Running, Failure, Success, Waiting;
+}
+public class Enum01 {
+
+	public static void main(String[] args) {
+		
+		Status[] s = Status.values();
+		
+		for(Status ss:s) {
+		System.out.println(ss);
+		}
+
+	}
+
+}

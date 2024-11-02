@@ -1,0 +1,14 @@
+package com.first.project;
+
+public class CustomException01 {
+
+	public CustomException01() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
