@@ -16,9 +16,6 @@ public class ThrowKeyword01 {
 		} catch (Exception e) {
 			System.out.println("Somthing wrong  " + e);
 		}
-		System.out.println(j);
-		System.out.println("Hiii");
-
 	}
 
 }
