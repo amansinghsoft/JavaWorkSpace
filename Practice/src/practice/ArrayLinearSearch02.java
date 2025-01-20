@@ -2,7 +2,7 @@ package practice;
 
 public class ArrayLinearSearch02 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		int arr[] = { 4, 5, 6, 7, 65, 76, 65 };
 		int targat = 65;
 
@@ -10,7 +10,7 @@ public class ArrayLinearSearch02 {
 		if (result != -1) {
 			System.out.println("Targat is found at index : " + result);
 		} else {
-			System.out.println("Targat is not found at index  ");
+			System.out.println("Targat is not found at index. ");
 		}
 
 	}

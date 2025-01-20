@@ -28,6 +28,7 @@ public class ArrayLinearSearch01 {
 		} else {
 			System.out.println("Number not found");
 		}
+		scanner.close();
 
 	}
 
