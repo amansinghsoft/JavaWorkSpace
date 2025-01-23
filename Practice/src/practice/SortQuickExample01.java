@@ -13,7 +13,7 @@ public class SortQuickExample01 {
 		quickSort(arr, 0, arr.length - 1);
 
 		System.out.println();
-		System.out.println("Before Sorting :");
+		System.out.println("After Sorting :");
 		for (int num : arr) {
 			System.out.print(num + " ");
 		}
