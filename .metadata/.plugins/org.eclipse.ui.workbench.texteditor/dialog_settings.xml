@@ -3,11 +3,13 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="true"/>
 	<list key="searchhistory">
+		<item value="x"/>
 		<item value="Targat"/>
 		<item value="targat"/>
 		<item value="Laptop"/>
 	</list>
 	<list key="replacehistory">
+		<item value="y"/>
 		<item value="Target"/>
 		<item value="target"/>
 	</list>
