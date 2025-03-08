@@ -4,7 +4,7 @@ public class BinarySearchRecursive {
 
 	public static void main(String[] args) {
 		int arr[] = { 4, 5, 6, 7, 65, 76 };
-		int target = 76;
+		int target = 79;
 		int left = 0;
 
 		int result = BinarySearch(arr, target, left, arr.length - 1);
